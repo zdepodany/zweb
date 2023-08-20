@@ -204,7 +204,7 @@
 .me-image {
   width: 250px;
   height: 250px;
-  background-image: url('../images/meimg.webp');
+  background-image: url('../img/meimg.webp');
   background-position: 50%;
   background-size: cover;
   border-radius: 500px;
