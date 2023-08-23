@@ -3,14 +3,10 @@
     <%- include('templates/head.ejs') %>
   <body class="body">
     <%- include('templates/navbar.ejs') %>
-    <div class="lights">
-      <div class="purple-glow"></div>
-      <div class="blue-glow"></div>
-    </div>
     <div class="welcome-section wf-section">
-      <div class="welcome-content">
-        <h2 class="h2">Design <span class="welcome-h2-blue-text">webových stránek,<br>mobilních</span> nebo <span class="welcome-h2-blue-text">webových aplikací</span><br><span class="welcome-h2-white-text">&amp;</span><br>Tvorba<br><span class="welcome-h2-purple-text">webových stránek</span></h2>
-        <img src="img/welcomeSymbols.webp" loading="lazy" alt="Symbols of pen and arrow" class="image">
+      <div class="welcomeContent">
+        <h2 class="h2"><span class="purpleHeroText">Design</span> a <span class="blueHeroText">vývoj</span><br>webových stránek<br>&<br><span class="purpleHeroText">Design</span> webových a<br>mobilních aplikací.</h2>
+        <img src="img/desktopHero.webp" loading="lazy" alt="" class="image desktopHero">
       </div>
       <div class="welcome-buttons">
         <a href="/contact" class="primary-button w-button">Kontaktovat</a>
@@ -18,18 +14,60 @@
         <link rel="prefetch" href="/portfolio">
       </div>
     </div>
-    <div class="information-section wf-section">
+    <div class="informationSection">
       <h3 class="h3">Ahoj 👋</h3>
-      <p class="information-text">Potřebujete kvalitní design webových stránek nebo Vaší mobilní aplikace? Jste na správné adrese. 👨💻
+      <p class="informationText">Potřebujete kvalitní design webových stránek nebo vaší mobilní aplikace? Jste na správné adrese! 👨‍💻
         <br><br>
         Spolu s Vámi vytvořím ten nejlepší možný design pro vaše konkrétní řešení, ať už máte na internetu jakékoliv plány. 🖌️
         <br><br>
-        Pokud se jedná o prezentační web nebo menší eshop, tak ho pro vás můžu uvést do provozu. A vše díky platformě Webflow nebo přímo v kódovém editoru. 🌐
-        <br><br>
-        Zde je moje fotka, ať máte nějakou představu o tom, kdo vám Váš zbrusu nový web připraví. ⬇️</p>
+        Pokud se jedná o jednodušší web který se nesnaží napodobit službu o velikosti Facebooku, rád ho pro vás napíšu a nasadím.</p>
       <div class="me-image"></div>
       <h4 class="h4">Těším se na naši vzájemnou spolupráci ✌️</h4>
+      <a href="/contact" class="blueBtn">Kontaktovat</a>
     </div>
+    <!-- How it works section -->
+    <section class="howItWorksSection">
+      <h3 class="h3">Jak to funguje? 🤔</h3>
+      <p class="informationText">Pojďme si vysvětlit jak to zhruba bude probíhat 🤝<br>
+        Nejdříve si níže zaklikněte co budete chtít 👇</p>
+      <div class="segmentedControl">
+        <button class="segment active">Web</button>
+        <button class="segment">Aplikace</button>
+      </div>
+      <div id="websiteInfo" class="procedureContainer">
+        <div class="procedureStep">
+          <h4 class="h4">1. Kontakt 👋</h4>
+          <p class="informationText">Nejdříve se spolu zkontaktujeme, vy mi vyjevíte svoji myšlenku, probereme si čas dodání a domluvíme se na ceně.</p>
+        </div>
+        <div class="procedureStep">
+          <h4 class="h4">2. Dráťák (wireframe) 🧬</h4>
+          <p class="informationText">Následně zpracuji drátový model vašeho webu. Jde o všechny obrazovky které na webu budou, ovšem návrh zatím bude pouze v šedých barvách, bez obrázků a většinou bez finálních textací.Slouží k tomu abysme si mohli správně rozvrhnout prvky a nemuseli přitom zbytečně řešit barevnost. Taky slouží jako první vodítko pro responzivitu (tj. chování se v různých rozlišeních jako např. na mobilu nebo tabletu).</p>
+        </div>
+        <div class="procedureStep">
+          <h4 class="h4">3. Design 👨‍💻</h4>
+          <p class="informationText">Jakmile je dráťák hotový, pouštím se do zábavnější části, plním návrh barvami, obrázky a texty, navrhu chování při krajních případech, errory apod. Pokud máte někoho na vývoj webu, předávám mu návrh a moje práce tady končí, pokud ne tak 👇</p>
+        </div>
+        <div class="procedureStep">
+          <h4 class="h4">4. Vývoj 🏗️</h4>
+          <p class="informationText">Jakmile je design hotový, zapínám VS Code a začínám web psát, do vývoje můžete libovolně nahlížet pomocí sdíleného repozitáře nebo náhledu který vám, podle předchozí domluvy, pravidelně aktualizuji na testovací adrese.</p>
+        </div>
+        <div class="procedureStep">
+          <h4 class="h4">5. Nasazení 🛫</h4>
+          <p class="informationText">Web je hotový, všude se chová tak jak má, super, vybereme ideální místo pro jeho hosting (podle potřeb Wedos webhosting nebo Heroku), nasadíme ho tam, přidáme vaši doménu, nastavíme platby za hosting, vyrovnáme mezi sebou peníze a je hotovo.</p>
+        </div>
+        <p class="informationText" style="text-align: center; margin-top: 2rem;">Rozumíme si? Skvěle, tak hurá na první krok!</p>
+        <a href="/contact" class="blueBtn" style="margin-top: 1rem;">Kontaktovat</a>
+        <div class="procedureStep">
+          <h4 class="h4">Dobré vědět 👀</h4>
+          <ul>
+            <li class="informationText">Hosting i doména se platí po celou dobu co je web v provozu. U malých webů se jedná dohromady zhruba o <span class="blueInfoText">600-2000 Kč za rok</span>.</li>
+            <li class="informationText">Cena je proměnlivá podle velikosti projektu, ale dá se říct že zpravidla za prezentační web zaplatíte <span class="blueInfoText">od 5 do 40 000 Kč</span> i s na míru dělaným návrhem.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <%- include('templates/form.ejs') %>
+    <%- include('templates/footer.ejs') %>
     <%- include('templates/scripts.ejs') %>
   </body>
 </html>

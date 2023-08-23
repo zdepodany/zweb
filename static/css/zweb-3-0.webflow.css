@@ -87,36 +87,6 @@
   display: flex;
 }
 
-.welcome-content {
-  width: 80%;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 0;
-  display: flex;
-}
-
-.h2 {
-  color: #fff;
-  font-family: Inter, sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-}
-
-.welcome-h2-blue-text {
-  color: #00a7ef;
-  font-weight: 600;
-}
-
-.welcome-h2-purple-text {
-  color: #7200df;
-  font-weight: 600;
-}
-
-.welcome-h2-white-text {
-  font-size: 32px;
-  font-weight: 600;
-}
-
 .image {
   width: 40%;
 }
@@ -180,21 +150,7 @@
   padding-top: 8px;
   padding-bottom: 88px;
   display: flex;
-}
-
-.h3 {
-  width: 50%;
-  color: #fff;
-  margin-bottom: 0;
-  font-family: Inter, sans-serif;
-}
-
-.information-text {
-  width: 50%;
-  color: #fff;
-  margin-top: 24px;
-  margin-bottom: 0;
-  font-family: Inter, sans-serif;
+  gap: 24px;
 }
 
 .image-2 {
@@ -210,15 +166,6 @@
   border-radius: 500px;
   margin-top: 48px;
   box-shadow: 0 0 140px -4px rgba(5, 180, 255, .25);
-}
-
-.h4 {
-  color: #fff;
-  margin-top: 32px;
-  margin-bottom: 0;
-  font-family: Inter, sans-serif;
-  font-size: 22px;
-  font-weight: 600;
 }
 
 .body-2 {
@@ -525,7 +472,7 @@
     justify-content: center;
   }
 
-  .welcome-content {
+  .welcomeContent {
     flex-direction: column;
   }
 
@@ -662,15 +609,6 @@
   .me-image {
     width: 200px;
     height: 200px;
-  }
-
-  .h4 {
-    width: 80%;
-  }
-
-  .h1 {
-    width: 90%;
-    font-size: 24px;
   }
 
   .portfolio-icons-showcase {

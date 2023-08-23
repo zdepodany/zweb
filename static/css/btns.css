@@ -1,0 +1,25 @@
+.blueBtn {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #00A7EF;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    transition: 0.2s;
+}
+
+.blueBtn:hover {
+    background-color: #0086BF;
+    transform: scale(1.05);
+}
+
+.blueBtn:active {
+    transform: scale(0.95);
+}

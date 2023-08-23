@@ -1,0 +1,80 @@
+.formSection {
+    padding: 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSection form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
+
+.textLabel {
+    margin-left: 0.5rem;
+    font-family: Inter, sans-serif;
+    color: #D5B3F5;
+    letter-spacing: 0.02rem;
+    font-weight: 500;
+}
+
+.textInput {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    outline: none;
+    color: #FFF;
+    letter-spacing: 0.05rem;
+    border-image-slice: 1;
+    background: linear-gradient(315deg, #1A0030, #001937) padding-box,
+                linear-gradient(to right, #7200DF, #00A7EF) border-box;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    transition: all 0.25s;
+}
+
+.textInput:focus {
+    filter: drop-shadow(2px 6px 16px rgba(0, 167, 239, 0.15)) drop-shadow(-4px -6px 16px rgba(114, 0, 223, 0.16));
+}
+
+.formSection textarea {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    outline: none;
+    color: #FFF;
+    letter-spacing: 0.05rem;
+    background: linear-gradient(315deg, #1A0030, #001937) padding-box,
+                linear-gradient(to right, #7200DF, #00A7EF) border-box;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    resize: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    transition: all 0.25s;
+}
+
+.formSection textarea:focus {
+    filter: drop-shadow(2px 6px 16px rgba(0, 167, 239, 0.15)) drop-shadow(-4px -6px 16px rgba(114, 0, 223, 0.16));
+}
+
+.formSection .blueBtn {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* --- Responsive behaviour --- */
+
+@media screen and (max-width: 991px) {
+    .formSection {
+        padding: 0 8%;
+    }
+
+    .formSection form {
+        width: 100%;
+    }
+}
