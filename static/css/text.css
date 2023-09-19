@@ -52,3 +52,10 @@
 .footerTextSemiBold {
     font-weight: 600;
 }
+
+@media screen and (max-width: 479px) {
+  h2 {
+    font-size: 22px !important;
+    line-height: 32px !important;
+  }
+}

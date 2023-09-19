@@ -9,7 +9,7 @@
 /* --- Segmented Control --- */
 
 .segmentedControl {
-  width: 100%;
+  width: 90%;
   margin: 1rem 0;
   display: flex;
   justify-content: center;
@@ -60,8 +60,22 @@
   margin-bottom: 1rem;
 }
 
+.shown {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .howItWorksSection {
     padding: 0 8%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .segmentedControl {
+    width: 100%;
   }
 }

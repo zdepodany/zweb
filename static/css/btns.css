@@ -23,3 +23,38 @@
 .blueBtn:active {
     transform: scale(0.95);
 }
+
+.secondaryBtn {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px 0;
+    color: #00A7EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    transition: 0.2s;
+}
+
+.secondaryBtn:hover {
+    transform: scale(1.05);
+    color: #0086BF;
+}
+
+.secondaryBtn:active {
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 479px) {
+    .blueBtn {
+        font-size: 16px;
+    }
+
+    .secondaryBtn {
+        font-size: 16px;
+    }
+}

@@ -568,22 +568,6 @@
     padding-top: 32px;
   }
 
-  .h2 {
-    font-size: 20px;
-    line-height: 32px;
-  }
-
-  .welcome-h2-white-text {
-    font-size: 28px;
-  }
-
-  .image {
-    width: 110%;
-    max-width: 110%;
-    margin-right: 20px;
-    display: block;
-  }
-
   .primary-button {
     border-radius: 4px;
     padding-top: 12px;
