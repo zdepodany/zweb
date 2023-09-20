@@ -209,15 +209,6 @@
   overflow: hidden;
 }
 
-.portfolioendsection {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding-top: 88px;
-  padding-bottom: 88px;
-  display: flex;
-}
-
 .portfolioendbuttons {
   width: 80%;
   grid-column-gap: 2%;
@@ -379,10 +370,6 @@
     position: fixed;
   }
 
-  .portfolioendsection {
-    padding-bottom: 56px;
-  }
-
   .portfolioendbuttons {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
@@ -474,10 +461,6 @@
     bottom: auto;
     left: 0%;
     right: 0%;
-  }
-
-  .portfolioendsection {
-    padding-top: 64px;
   }
 
   .portfolioendbuttons {
