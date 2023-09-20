@@ -1,3 +1,12 @@
+.h1 {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 600;
+}
+
 .h2 {
     color: #fff;
     font-family: Inter, sans-serif;
@@ -36,6 +45,7 @@
     width: 100%;
     color: #DEDEDE;
     font-family: Inter, sans-serif;
+    font-weight: 400;
 }
 
 .blueInfoText {
@@ -51,6 +61,12 @@
 
 .footerTextSemiBold {
     font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .h1 {
+        font-size: 36px;
+      }
 }
 
 @media screen and (max-width: 479px) {

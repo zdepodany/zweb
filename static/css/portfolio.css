@@ -1,0 +1,92 @@
+.portfolioHeroSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 20% 0 20%;
+    display: flex;
+}
+
+.portfolioHeroSection h1 {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.workItemHead {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* Badges */
+
+.badgeContainer {
+    width: 100%;
+    padding: 1rem 0 5rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.webBadge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    background: linear-gradient(95deg, rgba(114, 0, 223, 0.24) 0%, rgba(151, 71, 255, 0.24) 100%);
+    padding: 14px 24px;
+    border-radius: 75px;
+    border: 2px solid #7200DF;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.18) inset;
+}
+
+.devBadge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    background: linear-gradient(95deg, rgba(0, 167, 239, 0.24) 0%, rgba(5, 180, 255, 0.24) 100%);
+    padding: 14px 24px;
+    border-radius: 75px;
+    border: 2px solid #00A7EF;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.18) inset;
+}
+
+.fullBadge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    border-image-slice: 1;
+    background: linear-gradient(180deg, #1A0030, #001937) padding-box,
+                linear-gradient(to bottom, #7200DF, #00A7EF) border-box;
+    border: 2px solid transparent;
+    padding: 14px 24px;
+    border-radius: 75px;
+}
+
+.fullBadgeText {
+    background: linear-gradient(180deg, #D5B3F5 0%, #9BE1FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.webBadgeText {
+    background: #D5B3F5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.devBadgeText {
+    background: #9BE1FF;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.badgeText {
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    cursor: default;
+}
