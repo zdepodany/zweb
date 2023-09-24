@@ -1,4 +1,4 @@
-.blueBtn {
+.btn {
     width: 100%;
     max-width: 400px;
     padding: 16px 0;
@@ -6,12 +6,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+    text-decoration: none;
+    letter-spacing: 0.02rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+
+.blueBtn {
     background-color: #00A7EF;
     color: #FFF;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: Inter, sans-serif;
     transition: 0.2s;
 }
 
@@ -25,18 +29,8 @@
 }
 
 .secondaryBtn {
-    width: 100%;
-    max-width: 400px;
-    padding: 16px 0;
     color: #00A7EF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: transparent;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: Inter, sans-serif;
     transition: 0.2s;
 }
 
@@ -50,11 +44,7 @@
 }
 
 @media screen and (max-width: 479px) {
-    .blueBtn {
-        font-size: 16px;
-    }
-
-    .secondaryBtn {
+    .btn {
         font-size: 16px;
     }
 }
