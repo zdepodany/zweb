@@ -31,9 +31,14 @@
   margin-right: 20px;
 }
 
+#desktopHeroTxt {
+  display: flex;
+}
+
 #mobileHeroTxt {
   width: 80%;
   margin-bottom: 2rem;
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -43,6 +48,14 @@
 }
 
 @media screen and (max-width: 479px) {
+  #desktopHeroTxt {
+    display: none;
+  }
+
+  #mobileHeroTxt {
+    display: flex;
+  }
+
   .welcome-section {
     padding-top: 8px !important;
     gap: 0px !important;
