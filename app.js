@@ -31,9 +31,9 @@ app.get('/portfolio', (req, res) => {
     res.render('portfolio', { pageTitle: 'Portfolio - Zdeněk Podaný' });
 });
 
-//Contact
-app.get('/contact', (req, res) => {
-    res.render('contact', { pageTitle: 'Kontakt - Zdeněk Podaný' });
+//404 Handling
+app.use((req, res, next) => {
+    res.status(404).render('404', { pageTitle: '404 - Stránka nenalezena!' });
 });
 
 //-------------------------------------

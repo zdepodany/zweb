@@ -1,0 +1,42 @@
+.section404 {
+    width: 100%;
+    margin: 2rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.image404 {
+    width: 30%;
+}
+
+.link {
+    font-weight: 600;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.linkHome {
+    padding: 0.5rem 0.75rem;
+    color: #00A7EF;
+}
+
+.linkHome:hover {
+    color: #FFF;
+    background-color: #00A7EF;
+}
+
+.linkPortfolio {
+    padding: 0.5rem 1rem;
+    color: #7200DF;
+}
+
+.linkPortfolio:hover {
+    color: #FFF;
+    background-color: #7200DF;
+}
