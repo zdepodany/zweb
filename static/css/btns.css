@@ -21,11 +21,11 @@
 
 .blueBtn:hover {
     background-color: #0086BF;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .blueBtn:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 
 .secondaryBtn {
@@ -35,12 +35,12 @@
 }
 
 .secondaryBtn:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     color: #0086BF;
 }
 
 .secondaryBtn:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 
 @media screen and (max-width: 479px) {
