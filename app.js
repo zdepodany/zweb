@@ -48,7 +48,7 @@ app.post('/send', (req, res) => {
     const mailOptions = {
         from: process.env.EMAIL_USER,
         to: 'zdepodany@gmail.com',
-        subject: 'Nová zpráva ze zdenda.xyz',
+        subject: '💸 zdenda.xyz zpráva! 💸',
         text: `E-mail od: ${email}\nTelefonní číslo odesílatele: ${tel}\n\n${message}`
     };
 
