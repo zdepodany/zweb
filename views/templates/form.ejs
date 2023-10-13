@@ -1,6 +1,6 @@
 <section class="formSection" id="formSection">
     <h3 class="h3">Kontakt ✍️</h3>
-    <form action="/send" method="POST">
+    <form action="/send" method="POST" id="demo-form">
         <label for="email" class="textLabel">Email:*</label>
         <input type="email" id="email" name="email" class="textInput" placeholder="E-mail" required>
         <br>
@@ -10,6 +10,6 @@
         <label for="message" class="textLabel">Zpráva:*</label>
         <textarea name="message" id="message" cols="30" rows="4" placeholder="Dobrý den"></textarea>
         <br>
-        <button type="submit" class="btn blueBtn">Odeslat</button>
+        <button type="submit" class="btn blueBtn g-recaptcha" data-sitekey="6LexGpsoAAAAAJ9DpMX5dxHczTyuu3xZruaKpJ2p" data-callback='onSubmit' data-action='submit'>Odeslat</button>
     </form>
 </section>
